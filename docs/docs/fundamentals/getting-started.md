@@ -43,7 +43,7 @@ You might also need to initialize your bug reporting service pretty early on in 
 
 ### iOS Native Initialization <a name="iOS-Native-Initialization"></a>
 
-Similarly, add this snipped in your iOS `AppDelegate.m`. Again, ensure that the `[ReactNativePerformance onAppStarted]` is the first line in the app startup routine.
+Similarly, add this snippet in your iOS `AppDelegate.m`. Again, ensure that the `[ReactNativePerformance onAppStarted]` is the first line in the app startup routine.
 
 ```objc
 #import <ReactNativePerformance/ReactNativePerformance.h>
